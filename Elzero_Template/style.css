@@ -1520,6 +1520,9 @@ html {
         padding: 15px 20px;
         text-align: center;
     }
+    .footer .info .slide i {
+    padding-right: 0px;
+}
 }
 .footer .text h3 {
     font-size: 50px;
@@ -1603,4 +1606,5 @@ html {
     font-weight: bold;
 }
 /* end footer =========================================================== */
+
 
