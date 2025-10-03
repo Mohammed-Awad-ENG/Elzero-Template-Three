@@ -108,6 +108,19 @@ html {
     border-color: transparent;
 }
 /* ############################################################################## */
+.up {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: var(--main-color);
+    padding: 4px;
+    color: white;
+    z-index: 213;
+    transition: 0.3s;
+}
+.up:hover {
+    background-color: var(--main-color-alt);
+}
 .header {
     /* padding: 20px; */
     box-shadow: 0 0 10px #ddd;
@@ -1590,3 +1603,4 @@ html {
     font-weight: bold;
 }
 /* end footer =========================================================== */
+
