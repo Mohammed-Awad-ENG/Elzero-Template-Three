@@ -1521,7 +1521,7 @@ html {
         text-align: center;
     }
     .footer .info .slide i {
-    padding-right: 0px;
+    padding-right: 0px !important;
 }
 }
 .footer .text h3 {
@@ -1606,5 +1606,6 @@ html {
     font-weight: bold;
 }
 /* end footer =========================================================== */
+
 
 
