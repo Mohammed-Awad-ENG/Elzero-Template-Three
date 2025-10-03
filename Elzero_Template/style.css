@@ -1492,38 +1492,7 @@ html {
 .footer .text .media {
     margin-bottom: 15px;
 }
-@media (max-width: 767px) {
-    .footer .text {
-        text-align: center;
-    }
-    .footer .info .slide {
-        flex-direction: column;
-        text-align: center;
-        gap: 15px;
-    }
-    .footer .min-Gallery {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
-    }
-    .footer .links {
-        display: flex;
-        justify-content: center;
-    }
-    .footer .links li:not(:last-child) {
-        width: fit-content;
-        padding: 15px 20px;
-    }
-    .footer .links li:last-child {
-        width: fit-content;
-        padding: 15px 20px;
-        text-align: center;
-    }
-    .footer .info .slide i {
-    padding-right: 0px !important;
-}
-}
+
 .footer .text h3 {
     font-size: 50px;
     margin-bottom: 20px;
@@ -1605,7 +1574,40 @@ html {
     color: var(--main-color);
     font-weight: bold;
 }
+@media (max-width: 767px) {
+    .footer .text {
+        text-align: center;
+    }
+    .footer .info .slide {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    .footer .min-Gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .footer .links {
+        display: flex;
+        justify-content: center;
+    }
+    .footer .links li:not(:last-child) {
+        width: fit-content;
+        padding: 15px 20px;
+    }
+    .footer .links li:last-child {
+        width: fit-content;
+        padding: 15px 20px;
+        text-align: center;
+    }
+    .footer .info .slide i {
+    padding-right: 0px !important;
+}
+}
 /* end footer =========================================================== */
+
 
 
 
